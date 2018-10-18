@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) != 6:
     print "X-code FTP Fuzzer v0.1" 
     print "Oleh Kurniawan. trainingxcode@gmail.com. xcode.or.id."
-    print "Cara penggunaan : ./fuzzerhttp.py <ip target> <port> <karakter> <jumlah karakter> <command ftp>"
+    print "Cara penggunaan : python fuzzerhttp.py <ip target> <port> <karakter> <jumlah karakter> <command ftp>"
     sys.exit(1)
  
 ipaddress = sys.argv[1]
